@@ -34,11 +34,50 @@
 
 // ৩.৪ একাধিক লাইনওয়ালা অ্যারো ফাংশন লিখো। সেটাতে দুইটা প্যারামিটার নিবে। ওই arrow ফাংশনটা হবে অনেকগুলা লাইনের। সেখানে প্রত্যেকটা ইনপুট প্যারামিটার এর সাথে ৫ যোগ করবে তারপর যোগফল দুইটাকে আবার গুণ করবে। ক্যামনে করবে সেটা চিন্তা করে বের করার চেষ্টা করো। 
 
-const fourthFun =(num1 , num2)=> {
-    const resultOne = num1 + 5;
-    const resultTwo = num2 + 5;
-    const newResult = resultOne * resultTwo;
-    return newResult;
-}
+// const fourthFun =(num1 , num2)=> {
+//     const resultOne = num1 + 5;
+//     const resultTwo = num2 + 5;
+//     const newResult = resultOne * resultTwo;
+//     return newResult;
+// }
 
-console.log(fourthFun(598,98765644));
+// console.log(fourthFun(598,98765644));
+
+
+// ৪. সিম্পল একটা জাভাস্ক্রিপ্ট অবজেক্ট এর কোন একটা প্রোপার্টিকে ভেরিয়েবল হিসেবে ডিক্লেয়ার করার জন্য destructuring ইউজ করো। array এর destructuring করবে আর সেটা করার জন্য তুমি এরে এর সেকেন্ড পজিশন এর উপাদান কে destructuring করে 'balance' নামক একটা ভেরিয়েবল এ রাখবে।
+
+// const shop = {
+//     name : "loverStore",
+//     location : "dhaka",
+//     products : ["rice", "RC", "sugar", "banana", "coconut", "salt"],
+//     dailyProfit : 2000,
+//     monthlySalesReport : {
+//       dayOne : 9000,
+//       dayTwo : 12000,
+//       dayThree : 7000,
+//       dayFour : 1000,
+//     },
+//  }
+
+//  const [secondPosition] = shop.products;
+//  const balance = secondPosition;
+//  console.log(balance);
+
+//  ৫. shorthand দিয়ে অবজেক্ট কিভাবে ডিক্লেয়ার করে, {a , b } স্টাইলে। 
+// const object1 = { a: 'foo', b: 42, c: 'kamal' };
+// console.log(object1.c)
+
+// ৬. ফাংশন এর মধ্যে ডিফল্ট প্যারামিটার কিভাবে ডিক্লেয়ার করে 
+
+// function multiply(a,b){
+//     return a *b;
+// }
+// console.log(multiply(5,2));
+
+// ৭. অপশনাল চেইনিং কি জিনিস, সেটা কখন কিভাবে ইউজ করে ? না জানলে গুগলে সার্চ দাও 
+
+// const age = 18;
+// const id = 5;
+// const myName = 'Jamal'
+// const result = age >=18 ? "My name is " : age ? "My id is ": id;
+// console.log(result);
