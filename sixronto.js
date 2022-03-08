@@ -83,3 +83,20 @@ let season = 'rainy';
 // else{
 //     console.log('check again');
 // }
+
+// ২.২. এক বা একাধিক কন্ডিশন দিয়ে কিভাবে if-else লিখে আবার কখন if-else-if - else লিখে। সেই রকম একটা উদারহণ চিন্তা করে তুমি লিখে ফেলো 
+
+// let num1 = 34;
+// let jobNai = 'developer';
+// const myName = 'monir';
+
+// if( num1 === myName){
+//     console.log('Checka again');
+// }
+// else if(jobNai === myName){
+//     console.log('dur miye check again');
+// }
+// else{
+//     console.log('Bhai ami parbo na');
+// }
+
