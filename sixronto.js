@@ -100,3 +100,22 @@ let season = 'rainy';
 //     console.log('Bhai ami parbo na');
 // }
 
+// ৩. array কিভাবে ডিক্লেয়ার করে array এর মধ্যে length, index, push, pop, indexOf, includes এইগুলা কিভাবে কাজ করে। কোনটা দিয়ে কি করে? সেগুলা কি তুমি জানো?
+
+// const numbers = [89, 35, 98, 12];
+// console.log(numbers.length);
+
+// const beasts = ['ant', 'bison', 'camel', 'duck', 'bison'];
+// console.log(beasts.indexOf('camel',1));
+
+//  beasts.push('kiwi');
+//  console.log(beasts);
+
+//  console.log(beasts.pop());
+//  console.log(beasts);
+//  console.log(beasts.pop());
+//  console.log(beasts);
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// fruits.includes("kiwi");
+// console.log(fruits);
