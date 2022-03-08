@@ -129,3 +129,32 @@ let season = 'rainy';
 //     const number = numbers[i];
 //     console.log(number);
 // }
+
+// ৫. function একটা অবশ্য জিনিস। বিশেষ করে সিম্পল একটা ফাংশন কখন ডিক্লেয়ার করতে হয়। কখন ফাংশন থেকে return করে। আর কিভাবে ফাংশন এর মধ্যে parameter নিতে হয়। 
+
+// function multiply(num1, num2) {
+//     const result = num1 * num2;
+//     return result;
+// }
+
+// const output = multiply(35, 78);
+// console.log(output)
+
+// ৬. আখেরি রত্ন হচ্ছে Object তাই কোন একটা অবজেক্ট কিভাবে ডিক্লেয়ার করে। সেখান property কিভাবে কিভাবে একসেস করা যায়। এছাড়াও অবজেক্ট এর প্রপার্টি এর ভ্যালু হিসেবে কিভাবে array, object ইউজ করা যায়। 
+
+// const student = {
+//     name: 'Salib Khan',
+//     age: 32,
+//     movies: ['king khan', 'Dhakar Mastan']
+// }
+
+// console.log(student.age)
+
+
+const student = {
+  name: 'Salib Khan',
+  age: 32,
+  movies: ['king khan', 'Dhakar Mastan']
+}
+
+  console.log(student.movies[1])
