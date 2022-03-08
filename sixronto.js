@@ -119,3 +119,13 @@ let season = 'rainy';
 // const fruits = ["Banana", "Orange", "Apple", "Mango"];
 // fruits.includes("kiwi");
 // console.log(fruits);
+
+// ৪. দুইটা বেসিক লুপ ,এর মধ্যে for loop তোমাকে জানতেই হবে। while লুপটাও দেখে রাখতে পারো। যদিও আমরা এই দুইটা লুপই কম ইউজ করবো। তাও কখনো লাগলে যেন তুমি বুঝে ফেলতে পারো।  
+
+
+// const numbers = [89, 35, 98, 12];
+
+// for(let i=0 ; i<numbers.length ; i++){
+//     const number = numbers[i];
+//     console.log(number);
+// }
